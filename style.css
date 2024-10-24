@@ -1,0 +1,65 @@
+body {
+    background-color: #000; /* Black background */
+    color: #ffd700; /* Golden yellow text */
+    font-family: 'Arial', sans-serif; /* Font styling */
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    border: none; /* No border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); /* Soft glow */
+}
+
+.heading {
+    color: #ffd700; /* Golden color for the heading */
+    font-weight: bold; /* Bold font */
+}
+
+.input-group-addon {
+    background-color: rgba(255, 215, 0, 0.9); /* Semi-transparent yellow */
+    color: #000; /* Black text */
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark input background */
+    color: #ffd700; /* Golden text */
+    border: 1px solid #ffd700; /* Yellow border */
+    border-radius: 5px; /* Slightly rounded edges */
+}
+
+.form-control:focus {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker on focus */
+    color: #ffd700; /* Maintain text color */
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.8); /* Glow effect */
+}
+
+input[type=range] {
+    -webkit-appearance: none; /* Remove default styling */
+    width: 100%; /* Full width */
+    height: 10px; /* Height of the slider */
+    background: rgba(255, 215, 0, 0.3); /* Semi-transparent yellow */
+    border-radius: 5px; /* Rounded edges */
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default thumb */
+    appearance: none; /* Remove default thumb */
+    width: 20px; /* Thumb width */
+    height: 20px; /* Thumb height */
+    background: #ffd700; /* Solid yellow thumb */
+    border-radius: 50%; /* Round thumb */
+    cursor: pointer; /* Pointer cursor */
+}
+
+#results {
+    display: none; /* Keep results hidden initially */
+    margin-top: 20px; /* Space above results */
+    background-color: rgba(255, 215, 0, 0.1); /* Light transparent yellow */
+    padding: 15px; /* Padding for results */
+    border-radius: 10px; /* Rounded corners for results */
+}
+
+h5 {
+    color: #ffd700; /* Golden color for results heading */
+}
